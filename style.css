@@ -1,0 +1,55 @@
+html,
+body {
+    height:100%;
+    width: 100%;
+}
+body{
+    font-family: 'Permanent Marker', cursive;
+    color: #ff71ce;
+    background: black;
+}
+
+header.startup{
+    background:url("001.gif") no-repeat;
+    background-size: auto;
+    background-position: center;
+    height:100%;
+
+}
+header.startup h1{
+    margin-top: -250px;
+    font-size: 3em;
+    animation: beat 1s infinite alternate;
+}
+header.startup hr{
+    margin-top: 500px;
+}
+
+.btn{
+    /* margin-top:100px; */
+    border-radius: 300px;
+    
+}
+
+.btn-primary{
+    color:#ff71ce;
+    background-color: #2FC7B5;
+    border-color: #2FC7B5;
+}
+
+.btn-xl {
+    padding: 0.25rem 1.5rem;
+    font-size: 3em 
+  }
+
+.btn-primary:hover {
+    background-color: #ff71ce;
+    border-color: #ff71ce;
+    border-width: 5px;
+    color: #2FC7B5;
+    cursor: pointer;
+}
+
+@keyframes beat{
+	to { transform: scale(1.1); }
+}
