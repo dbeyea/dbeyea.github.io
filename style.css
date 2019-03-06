@@ -21,6 +21,11 @@ header.startup h1{
     font-size: 3em;
     animation: beat 1s infinite alternate;
 }
+header.startup h1:hover{
+    color: #2FC7B5;
+}
+
+
 header.startup hr{
     margin-top: 500px;
 }
